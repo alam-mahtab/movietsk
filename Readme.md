@@ -36,7 +36,7 @@ My Approach for this task is:
 
 After Cloning it run the following commands:
 1. python manage.py makemigrations
-2. python manage.py migrate
+2. python manage.py migrate if  throwing no such table: api_movie error run ['python manage.py migrate --run-syncdb']
 3. python manage.py createsuperuser [to create admin][Optional]
 4. python manage.py runserver
 5. python manage.py test  [for testing]
